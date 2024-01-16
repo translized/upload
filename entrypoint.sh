@@ -22,4 +22,4 @@ if [ ! -z "$INPUT_WORKDIR" ]; then
   cd $INPUT_WORKDIR
 fi
 
-$COMMAND
+echo $COMMAND

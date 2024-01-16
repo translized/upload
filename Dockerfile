@@ -1,4 +1,4 @@
-FROM translized/cli:v0.01
+FROM translized/cli:v0.2
 
 COPY entrypoint.sh /entrypoint.sh
 

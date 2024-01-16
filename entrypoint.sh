@@ -22,4 +22,6 @@ if [ ! -z "$INPUT_WORKDIR" ]; then
   cd $INPUT_WORKDIR
 fi
 
+echo "Action entrypoint"
+
 echo $COMMAND

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-COMMAND="upload"
+COMMAND="docker run -v $(pwd):/usr/src/app/translized translized-cli upload"
 
 if [ ! -z "$INPUT_CONFIG_FILE" ]; then
   COMMAND="$COMMAND -c $INPUT_CONFIG_FILE"

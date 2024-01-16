@@ -1,3 +1,5 @@
+#!/bin/bash
+
 COMMAND="upload"
 
 if [ ! -z "$INPUT_CONFIG_FILE" ]; then

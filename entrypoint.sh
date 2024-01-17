@@ -26,4 +26,6 @@ echo "Action entrypoint"
 
 echo $COMMAND
 
+cd ../../usr/src/app
+
 $COMMAND

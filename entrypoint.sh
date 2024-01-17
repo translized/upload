@@ -1,6 +1,6 @@
 #!/bin/sh
 
-COMMAND="upload"
+COMMAND="node actions/upload.js"
 
 if [ ! -z "$INPUT_CONFIG_FILE" ]; then
   COMMAND="$COMMAND -c $INPUT_CONFIG_FILE"

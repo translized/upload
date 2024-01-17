@@ -5,7 +5,7 @@ For detailed documentation of Translized CLI, please [visit the documentation](h
 
 # Prerequisites
 
-Configuration file .translized.yml should exist in a root directory.
+Configuration file **.translized.yml** should exist in a root directory.
 More details about file and how to create it can be found [here](https://docs.translized.com/docs/cli/configuration).
 
 # Example usage

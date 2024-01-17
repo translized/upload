@@ -10,24 +10,22 @@ More details about file and how to create it can be found [here](https://docs.tr
 
 # Example usage
 
-``
-name: upload_translized
-on:
-  push:
-    branches:
-      - 'main'
-    paths:
-      - 'languages/**'
+    name: upload_translized
+    on:
+      push:
+        branches:
+          - 'main'
+        paths:
+          - 'languages/**'
 
-jobs:
-  upload:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Copy repository
-        uses: actions/checkout@v4
+    jobs:
+      upload:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Copy repository
+            uses: actions/checkout@v4
 
-      - name: Translized upload
-        uses: translized/upload@v1.0
-``
+          - name: Translized upload
+            uses: translized/upload@v1.0
 
 This job will upload your localization files to Translized whenever some of the localization files, which are in languages folder, change. 
